@@ -14,7 +14,7 @@ public class Bookstore extends Application {
         StackPane root = new StackPane(label);
         Scene scene = new Scene(root, 300, 200);
 
-        primaryStage.setTitle("JavaFX Test");
+        primaryStage.setTitle("Hello!!");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
