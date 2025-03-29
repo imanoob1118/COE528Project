@@ -7,8 +7,6 @@ module Bookstore {
     requires javafx.swing;
     requires javafx.web;
     requires jdk.jsobject;
-    requires jfx.incubator.input;
-    requires jfx.incubator.richtext;
 
     // Allow JavaFX to access classes in the 'bookstore' package
     opens bookstore to javafx.graphics, javafx.fxml;
